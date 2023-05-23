@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Florielly img/Icono flor.png" type="image" alt="logo Florielly" >
+    <title>Florielly regalos y flores</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="home.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Nunito:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section>
+        <a  id="FloriellyLogotipo" title="Florielly" href="index.html" ><img src="Florielly img/logotipo 3.png" alt="Florielly" width="180px" height="180px"/></a>
+        <div>
+            <input class="" type="text" placeholder="buscar" />
+            <button type="submit"  value="search">
+            <img src="Florielly img/lupa icono.png"  width="13px" height="12px"> <!--Cuando intentaba cambiar el tamaño de este el boton con imagen en csss
+            el boton y la imagen aparecian con tamaños diferentes aunque les ponga class o id :( -->
+            </button>
+            <a class="categories" href="regalos.html" >Regalos</a>
+            <a class="categories" href="arreglos.html" >Arreglos</a>
+            <a class="categories" href="sets.html">Sets</a>
+            <a class="categories"href="hogar.html" >Hogar</a>
+            <a class="categories" href="eventos.html" >Eventos</a>
+            <a class="categories" href="promociones.html" >Promociones</a>
+            <a title="servicio telefonico" href="tel: +54 942161320" target="_blank"><input type="image" src="Florielly img/telefono icono.png" width="22px" height="22px"/></a>
+            <a title="whatsapp" href="https://web.whatsapp.com/" target="_blank"><input type="image" src="Florielly img/WhatsApp.svg.webp" width="22px" height="22px" /></a>
+        </div>
+    </section>
+    <div>
+        <img src="Florielly img/anuncio alegra su dia.png" alt="Alegra el dia de tu pareja con un regalo" />
+    </div>
+    <h3>Más vendidos</h3>
+    <div class="product-section">    
+        <img class="product" src="Florielly img/1.png">
+        <img class="product" src="Florielly img/2.png">
+        <img class="product" src="Florielly img/3.png">
+        <img class="product" src="Florielly img/4.png">
+    </div>
+    <div>
+        <h3>Nos ayudaria saber tu opinion!</h3>
+        <form class="formulario" enctype="text/plain"  method="post" >
+        
+            <h4 id="envienoscomentarios">Envienos sus comentarios</h4>
+            <input type="text" name="nombre" id="nombres" placeholder="nombres" label="nombres" class="cuadrosform" > <br>
+            <input type="text" name="apellido" id="apellidos" placeholder="apellidos" label="apellidos"  class="cuadrosform" ><br>
+            <input type="email" name="correo" id="correos" placeholder="correo electronico" label="correo" class="cuadrosform" ><br>
+            <input type="text" name="comentarios" id="comentarios" placeholder="Ingrese su comentario aquí" label="comentarios" class="cuadrosform" >
+            <p id="form-satisfaccion">Como fue su experiencia en Florielly</p>
+            <select class="form-select"  name="satisfacción" >
+                <option value="sin respuesta" >...</option>
+                <option value="Muy satisfecho" >Muy buena</option>
+                <option value="satisfecho" >buena</option>
+                <option value="poco satisfecho" >normal</option>
+                <option value="nada satisfecho" >mala</option>
+            </select><br>
+            <input type="submit" value="Enviar" class="Boton" >
+        </form>
+    </div>
+    
+</body>
+<footer>
+<p>Politica de privacidad</p><p>All rights reserved </p>
+</footer>
+</html>

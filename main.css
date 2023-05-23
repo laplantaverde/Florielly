@@ -1,0 +1,51 @@
+.product:hover
+ {
+border: 1px solid gray;
+border-radius: 5%;
+}
+
+.product{
+    width: 300px;  height: 300px;
+   
+}
+
+.product-section {
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:  3fr 3fr ;
+    row-gap: 20px;
+  
+}
+
+.categories
+{ text-decoration: none;
+  
+  border-radius: 10%;
+  padding: 5px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+}
+.categories:hover {
+    background-color: #ff7596;
+    border: 3px solid #ff7596;
+}
+
+section div {
+    background-color: #f9e4f3;
+    padding: 20px;}
+
+#FloriellyLogotipo {
+margin: 1px;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    color: #ff7596;
+}
+h3 {
+    font-family: 'Nunito', sans-serif;
+}
+
+div{
+    display: grid;
+grid-template-columns: 15% 2% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
