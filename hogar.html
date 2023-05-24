@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Florielly Eventos</title>
+    <title>Florielly hogar</title>
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,12 +13,12 @@
 <body>
     <section>
         <a  title="Florielly" href="index.html" ><img src="Florielly img/logotipo 3.png" alt="Florielly" width="180px" height="180px"/></a>
-        <h2>Regala momentos</h2>
-        <div>
-            <input type="text" placeholder="buscar" />
+        
+        <div class="categories-div">
+            <div><input type="text" placeholder="buscar"/>
             <button type="submit"  value="search">
             <img src="Florielly img/lupa icono.png"  width="13px" height="12px">
-            </button>
+            </button></div>
             <a class="categories" href="regalos.html" >Regalos</a>
             <a class="categories" href="arreglos.html" >Arreglos</a>
             <a class="categories" href="sets.html">Sets</a>
@@ -30,8 +30,23 @@
          </div>
     </section>
     <section>
-        <img src="Florielly img/anuncio gatito.png" alt="Disfruta de regalos junto tus gatitos queridos"/>
+        <h2>Regala momentos</h2>
+        <h3>Filtros</h3>
+        <select>
+            <option selected>...</option>
+            <option>sala</option>
+            <option>Comedor</option>
+            <option>Habitación</option>
+            <option>Oficina</option>
+            <option>Baño</option>
+            <option>Patio/terraza</option>
+        </select>
+        <button type="submit">Aplicar</button>
     </section>
-    
+    <div  class="product-section">
+        <img class="product" src="Florielly img/Hogar Ambientador lilas.png" alt="Ambientador aroma a lilas"/><p>Ambientador aroma a lilas</p>
+        <img class="product" src="Florielly img/Hogar Cojines redondos.png" alt="Cojines redondos para sala"/><p>Cojines redondos en diferentes colores</p>
+        <img class="product" src="Florielly img/Hogar Cuadro de flores preservadas.png" alt="cuadro de flores preservadas formando un corazón"/><p>Cuadro de flores preservadas</p>
+    </div>
 </body>
 </html>

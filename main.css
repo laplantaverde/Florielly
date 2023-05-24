@@ -1,51 +1,107 @@
+h2 {
+    font-family: 'Nunito', sans-serif;
+    color: #ff7596;}
+
+    h3 {
+    font-family: 'Nunito', sans-serif;
+}
+
+.product{
+    width: 350px;  height: 350px;
+   
+
+}
+.product-img{
+width: 300px; height: 300px;
+padding: 5px;
+overflow: hidden;
+}
+
 .product:hover
  {
 border: 1px solid gray;
 border-radius: 5%;
 }
 
-.product{
-    width: 300px;  height: 300px;
-   
-}
-
 .product-section {
-    grid-template-columns:1fr 1fr 1fr 1fr;
-    grid-template-rows:  3fr 3fr ;
-    row-gap: 20px;
-  
-}
+   display: grid; 
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 2fr 2fr 2fr;
+   column-gap: 20px;
+   row-gap: 20px;
+   padding: 50px;
+   
+  }
+
+  .product-section p {
+  text-align: center;
+  }
+
+ .categories-div
+ {
+    background-color: #f9e4f3;
+    padding: 20px;
+    
+ } 
+
+ 
 
 .categories
 { text-decoration: none;
   
   border-radius: 10%;
-  padding: 5px;
+  padding: 3px;
   font-family: 'Nunito', sans-serif;
   text-align: center;
+  
 }
 .categories:hover {
     background-color: #ff7596;
     border: 3px solid #ff7596;
+    
 }
 
-section div {
-    background-color: #f9e4f3;
-    padding: 20px;}
+
 
 #FloriellyLogotipo {
 margin: 1px;
 }
 
-h2 {
-    font-family: 'Nunito', sans-serif;
-    color: #ff7596;
-}
-h3 {
-    font-family: 'Nunito', sans-serif;
+.categories-div{
+display: grid;
+grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+grid-column-gap: 15px;
 }
 
-div{
+
+@media (max-width:600px){
+.categories-div{
+    background-color: #de90c4;
     display: grid;
-grid-template-columns: 15% 2% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-columns: 1fr 1fr; }     
+.categories{
+    text-align: left;}
+div input {
+border-style: none;}
+}
+
+@media (max-width:480px){
+.categories-div{ display: grid; grid-template-columns:50% 50%;    
+width: 100%;    
+background-color: #e4ece4;  
+font-size: larger;   }
+#anuncio-uno{
+width: 480px;   height: 400px; 
+}
+.product-section{
+display: grid;
+grid-template-columns: 50% 50%;
+column-gap: 15px;
+}
+.product-img{
+width: 200px; height: 200px;
+}
+.product{
+    width: 200px; height: 200px;  
+}
 }
